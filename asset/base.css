@@ -1,0 +1,57 @@
+:root{
+    --text-color:#333;
+}
+main{
+    background-color: #f5f5f5;
+    padding: 40px 0px;
+    border-bottom: 4px solid #ee4d2d;
+}
+.grid{
+    width: 1200px;
+    margin: 0 auto ;
+    height: 100%;
+}
+.grid-full-width{
+    width: 100%;
+}
+.grid-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -12px;
+}
+.grid-row-mini{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -5px;
+}
+/* column */
+.grid-column-3{
+    width: 25%;
+    padding: 0px 5px;
+}
+.grid-column-2{
+    width: 16.6667%;
+    padding: 0px 12px;
+}
+.grid-column-10{
+    width: 83.3333%;
+    padding: 0px 12px;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes notify{
+    from{
+        opacity: 0;
+        transform: scale(0);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}

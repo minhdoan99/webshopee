@@ -1,250 +1,1076 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <title>Minh-Shop</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="/asset/image/LOGO.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="/asset/css/style.css">
+    <link rel="stylesheet" href="/asset/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="style.css">
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- <body>
-    
-
-     
-        <div id="main">
-            <div id="header">
-                <ul class="list-item-parent box">
-                    <li class="item-parent first-li"><a href="#">Home</a></li>
-                    <li class="item-parent display-none"><a href="#band">Band</a></li>
-                    <li class="item-parent display-none"><a href="#tour">Tour</a></li>
-                    <li class="item-parent display-none"><a href="#contact">Contact</a></li>
-                    <li class="item-parent display-none" id="more">
-                        <a href="#">
-                            More
-                            <ion-icon name="caret-down-outline"></ion-icon>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <div class="Minh-Shop">
+          <header>
+            <div class="header-nav">
+                <div class="grid">
+                    <div class="header-nav-fat">
+                      <div class="header-nav-chil">
+                        <div class="header-nav-click header-nav-qr">
+                            <span>Vào cửa hàng trên ứng dụng Minh-Shop</span>
+                            <div class="header-nav-qr-main">
+                              <img src="/asset/image/qr.png" alt="">
+                              <div class="header-nav-app">
+                                <div class="header-nav-app-ch">
+                                  <img src="/asset/image/ch.png" alt="">
+                                </div>
+                                <div class="header-nav-app-st">
+                                  <img src="/asset/image/st.png" alt="">
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="header-nav-click">
+                           <a href="tel:0961653104">
+                              <i class="fas fa-phone-alt"></i>
+                              <span>0966054258</span>
+                           </a>
+                        </div>
+                        <div class="line"></div>
+                        <div class="header-nav-click">
+                            <a href="mailto:oanhphuc9699@gmail.com">
+                              <i class="fas fa-envelope"></i>
+                              <span>minhminh180999@gmail.com</span>
+                            </a>
+                        </div>
+                      </div>
+                      <div class="header-nav-chil">
+                        <div class="header-nav-click header-nav-click-left header-nav-click-notify">
+                          <a href="">
+                            <i class="fas fa-bell"></i>
+                            <span>Thông Báo</span>
+                          </a>
+                          <div class="header-nav-notify">
+                            <div class="header-nav-notify-title">
+                              <h3>Thông Báo Của Bạn</h3>
+                            </div>
+                            <ul class="header-nav-list-notify">
+                              <li>
+                                <a href="">
+                                  <div class="header-nav-notify-img">
+                                    <img src="/asset//image/thông báo 0.png" alt="">
+                                  </div>
+                                  <div class="header-nav-notify-text">
+                                    <p>Chương trình khách hàng thân thiết</p>
+                                    <span>Để tri ân sự yêu thích và ủng hộ của khách hàng</span>
+                                  </div>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="">
+                                  <div class="header-nav-notify-img">
+                                    <img src="/asset//image/thông báo 1.png" alt="">
+                                  </div>
+                                  <div class="header-nav-notify-text">
+                                    <p>Chương trình khuyến mãi cuối năm</p>
+                                    <span>Để tri ân sự yêu thích và ủng hộ của khách hàng</span>
+                                  </div>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="">
+                                  <div class="header-nav-notify-img">
+                                    <img src="/asset//image/thông báo 2.png" alt="">
+                                  </div>
+                                  <div class="header-nav-notify-text">
+                                    <p>Siêu sale cho khách hàng VIP trong dịp TẾT dương lịch </p>
+                                    <span>Khách hàng đã ủng hộ shop rất nhiều trong thời gian qua click để nhận quà nào</span>
+                                  </div>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="">
+                                  <div class="header-nav-notify-img">
+                                    <img src="/asset//image/thông báo 1.png" alt="">
+                                  </div>
+                                  <div class="header-nav-notify-text">
+                                    <p>Chương trình khách hàng thân thiết</p>
+                                    <span>Để tri ân sự yêu thích và ủng hộ của khách hàng</span>
+                                  </div>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="">
+                                  <div class="header-nav-notify-img">
+                                    <img src="/asset//image/thông báo 0.png" alt="">
+                                  </div>
+                                  <div class="header-nav-notify-text">
+                                    <p>Chương trình khách hàng thân thiết</p>
+                                    <span>Để tri ân sự yêu thích và ủng hộ của khách hàng</span>
+                                  </div>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="">
+                                  <div class="header-nav-notify-img">
+                                    <img src="/asset//image/thông báo 2.png" alt="">
+                                  </div>
+                                  <div class="header-nav-notify-text">
+                                    <p>Chương trình khách hàng thân thiết</p>
+                                    <span>Để tri ân sự yêu thích và ủng hộ của khách hàng</span>
+                                  </div>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="">
+                                  <div class="header-nav-notify-img">
+                                    <img src="/asset//image/thông báo 0.png" alt="">
+                                  </div>
+                                  <div class="header-nav-notify-text">
+                                    <p>Chương trình khách hàng thân thiết</p>
+                                    <span>Để tri ân sự yêu thích và ủng hộ của khách hàng</span>
+                                  </div>
+                                </a>
+                              </li>
+                            </ul>
+                            <div class="header-nav-notify-full">
+                              <a href="">
+                                <span>Xem tất cả</span>
+                              </a>
+                            </div>
+                          </div>
+                       </div>
+                       <div class="header-nav-click header-nav-click-left">
+                        <a href="">
+                          <i class="far fa-question-circle"></i>
+                          <span>Liên Hệ</span>
                         </a>
-                        <ul class="list-item-child">
-                            <li class="item-child"><a href="#">Merchandise</a></li>
-                            <li class="item-child"><a href="#">Extra</a></li>
-                            <li class="item-child"><a href="#">Media</a></li>
+                     </div>
+                        <div class="header-nav-click header-nav-click-right">
+                          <a href="">
+                            <span>Đăng Ký</span>
+                          </a>
+                        </div>
+                        <div class="line"></div>
+                        <div class="header-nav-click header-nav-click-right">
+                          <a href="">
+                            <span>Đăng Nhập</span>
+                          </a>
+                        </div>
+                      </div>   
+                    </div>  
+                </div> 
+            </div>
+            <div class="header-main">
+              <div class="grid">
+                <div class="header-main-box">
+                  <div class="header-main-logo">
+                    <img src="/asset/image/LOGO.PNG" alt="">
+                  </div>
+                  <div class="header-main-select">
+                    <div class="header-main-select-box">
+                      <div class="header-main-input">
+                        <input type="text" placeholder="Tìm Kiếm" name="" id="">
+                        <div class="header-main-input-history">
+                          <div class="header-main-input-history-title">
+                            <h3>Lịch sử tìm kiếm</h3>
+                          </div>
+                          
+                          <ul class="list-history">
+                            <li>
+                              <a href="">
+                                <span>Giầy adidas 1120</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="">
+                                <span>Áo gucci 2210</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="box-select">
+                        <div class="box-select-main">
+                          <span>Cửa hàng</span>
+                          <i class="fas fa-angle-down"></i>
+                        </div>
+                        <ul>
+                          <li>
+                            <span>Cửa Hàng</span>
+                            <i class="fas fa-check"></i>
+                          </li>
+                          <li>
+                            <span>Online</span>
+                          </li>
                         </ul>
+                      </div>
+                      <button>
+                        <i class="fas fa-search"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="header-main-cart">
+                    <div class="header-main-cart-hover">
+                      <i class="fas fa-cart-arrow-down"></i>
+                      <div class="header-main-cart-number">
+                        <span>3</span>
+                      </div>
+                      <div class="header-main-cart-mini header-main-cart--has-cart">
+                        <img class="no-cart" src="http://demo.shop.tickid.vn/assets/images/no-cart.png" alt="">
+                        <p>Mua đi chứ xem chùa thế à</p>
+                        <div class="header-main-cart-header">
+                          <h3>Sản phẩm đã thêm</h3>
+                        </div>
+                        <ul class="list-category">
+                          <li>
+                            <img src="/asset/image/product1.jpg" alt="">
+                            <div class="list-category-text">
+                              <div class="list-category-text-info">
+                                <div class="list-category-text-name">
+                                  <span>Giầy Thể Thao Nữ Viền Trắng GERRARD1999 chính hàng do Minh-Shop sản xuất</span>
+                                </div>
+                                <div class="list-category-text-number">
+                                  <span>2.070.000đ</span>
+                                  <span>x</span>
+                                  <span>1</span>
+                                </div>
+                              </div>
+                              <div class="list-category-text-del">
+                                <button>Xóa</button>
+                              </div>   
+                            </div>
+                          </li>
+                          <li>
+                            <img src="/asset/image/product6.jpg" alt="">
+                            <div class="list-category-text">
+                              <div class="list-category-text-info">
+                                <div class="list-category-text-name">
+                                  <span>Sản phẩm trị lão hóa</span>
+                                </div>
+                                <div class="list-category-text-number">
+                                  <span>5.470.000đ</span>
+                                  <span>x</span>
+                                  <span>1</span>
+                                </div>
+                              </div>
+                              <div class="list-category-text-del">
+                                <button>Xóa</button>
+                              </div>   
+                            </div>
+                          </li>
+                          <li>
+                            <img src="/asset/image/product6.jpg" alt="">
+                            <div class="list-category-text">
+                              <div class="list-category-text-info">
+                                <div class="list-category-text-name">
+                                  <span>Sản phẩm trị lão hóa</span>
+                                </div>
+                                <div class="list-category-text-number">
+                                  <span>5.470.000đ</span>
+                                  <span>x</span>
+                                  <span>1</span>
+                                </div>
+                              </div>
+                              <div class="list-category-text-del">
+                                <button>Xóa</button>
+                              </div>   
+                            </div>
+                          </li>
+                          <li>
+                            <img src="/asset/image/product6.jpg" alt="">
+                            <div class="list-category-text">
+                              <div class="list-category-text-info">
+                                <div class="list-category-text-name">
+                                  <span>Sản phẩm trị lão hóa</span>
+                                </div>
+                                <div class="list-category-text-number">
+                                  <span>5.470.000đ</span>
+                                  <span>x</span>
+                                  <span>1</span>
+                                </div>
+                              </div>
+                              <div class="list-category-text-del">
+                                <button>Xóa</button>
+                              </div>   
+                            </div>
+                          </li>
+                          <li>
+                            <img src="/asset/image/product6.jpg" alt="">
+                            <div class="list-category-text">
+                              <div class="list-category-text-info">
+                                <div class="list-category-text-name">
+                                  <span>Sản phẩm trị lão hóa</span>
+                                </div>
+                                <div class="list-category-text-number">
+                                  <span>5.470.000đ</span>
+                                  <span>x</span>
+                                  <span>1</span>
+                                </div>
+                              </div>
+                              <div class="list-category-text-del">
+                                <button>Xóa</button>
+                              </div>   
+                            </div>
+                          </li>
+                          <li>
+                            <img src="/asset/image/product6.jpg" alt="">
+                            <div class="list-category-text">
+                              <div class="list-category-text-info">
+                                <div class="list-category-text-name">
+                                  <span>Sản phẩm trị lão hóa</span>
+                                </div>
+                                <div class="list-category-text-number">
+                                  <span>5.470.000đ</span>
+                                  <span>x</span>
+                                  <span>1</span>
+                                </div>
+                              </div>
+                              <div class="list-category-text-del">
+                                <button>Xóa</button>
+                              </div>   
+                            </div>
+                          </li>
+                          <li>
+                            <img src="/asset/image/product6.jpg" alt="">
+                            <div class="list-category-text">
+                              <div class="list-category-text-info">
+                                <div class="list-category-text-name">
+                                  <span>Sản phẩm trị lão hóa</span>
+                                </div>
+                                <div class="list-category-text-number">
+                                  <span>5.470.000đ</span>
+                                  <span>x</span>
+                                  <span>1</span>
+                                </div>
+                              </div>
+                              <div class="list-category-text-del">
+                                <button>Xóa</button>
+                              </div>   
+                            </div>
+                          </li>
+                          <li>
+                            <img src="/asset/image/product6.jpg" alt="">
+                            <div class="list-category-text">
+                              <div class="list-category-text-info">
+                                <div class="list-category-text-name">
+                                  <span>Sản phẩm trị lão hóa</span>
+                                </div>
+                                <div class="list-category-text-number">
+                                  <span>5.470.000đ</span>
+                                  <span>x</span>
+                                  <span>1</span>
+                                </div>
+                              </div>
+                              <div class="list-category-text-del">
+                                <button>Xóa</button>
+                              </div>   
+                            </div>
+                          </li>
+                        </ul>
+                        <div class="list-category-sum">
+                          <div class="sum-money">
+                            <span>Tổng giá trị</span>
+                            <span>7.540.000đ</span>
+                          </div>
+                          <div class="sum-point">
+                            <span>Ví tích điểm</span>
+                            <span>+2300 điểm</span>
+                          </div>
+                        </div>
+                        <div class="list-category-but">
+                          <button>Xem Giỏ Hàng</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </header>
+          <main>
+            <div class="grid">
+              <div class="grid-row">
+                <div class="grid-column-2 list-name">
+                  <div class="list-name-header">
+                    <i class="fas fa-list"></i>
+                    <span>Danh Mục</span>
+                  </div>
+                  <div class="list-name-action">
+                    <span>Sản Phẩm</span>
+                  </div>
+                  <ul class="list-name-category">
+                    <li>
+                      <a href="">
+                        <span>Best Seller</span>
+                      </a>
                     </li>
-                    <div class="clear"></div>
-                </ul> 
-                <ion-icon name="menu" id="menu"></ion-icon>
-                <ion-icon name="search" class="search-item"></ion-icon>
-                
-            </div>
-        
-            <div id="slider">
-                <img src="./assets/img/chicago.jpg" alt="" class="slider-img">
-                <div class="text-img">
-                    <h4 class="text-heading">NEW YORK</h4>
-                    <p class="text-content">The atmosphere in New York is lorem ipsum.</p>
+                    <li>
+                      <a href="">
+                        <span>Giầy Thể Thao</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <span>Tất Thể Thao</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <span>Trang Phục Thể Thao</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <span>Dụng Cụ Thể Thao</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <span>Phụ Kiện Thể Thao</span>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
-            </div>
-        
-             
-                <div class="content-band">
-                    <div class="content-width800">
-                        <div id="band" class="content-one">
-                            <div class="content-two">
-                                <div class="text-heading text-align pt-46">
-                                    <h2 class="text-first color-black">THE BAND</h2>
-                                    <p class="text-second">We love music</p>
-                                </div>
-                                <p class="text-description">
-                                    We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                </p>
-                                <div class="row">
-                                    <div class="image-item col col-third member-item">
-                                        <p class="image-name">Name</p>
-                                        <img src="./assets/img/bandmember.jpg" alt="" class="image">
-                                    </div>
-                                    <div class="image-item col col-third member-item">
-                                        <p class="image-name">Name</p>
-                                        <img src="./assets/img/bandmember.jpg" alt="" class="image">
-                                    </div>
-                                    <div class="image-item col col-third member-item">
-                                        <p class="image-name">Name</p>
-                                        <img src="./assets/img/bandmember.jpg" alt="" class="image">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="tour" class="content">
-                            <div class="content-two ">
-                                <div class="text-heading text-align pt-46">
-                                    <h2 class="text-first color-white">TOUR DATES</h2>
-                                    <p class="text-second">Remember to book your tickets</p>
-                                </div>
-                                <ul class="time">
-                                    <li class="months-time">September <span class="sold-out">Sold out</span></li>
-                                    <li class="months-time">October <span class="sold-out">Sold out</span></li>
-                                    <li class="months-time">November <span class="quantity">3</span></li>
-                                </ul>
-                                <div class="row place-lists">
-                                    <div class="col col-third place-item">
-                                        <img src="./assets/img/newyork.jpg" alt="" class="place-img">
-                                        <div class="place-body">
-                                            <h3 class="place-heading">New York</h3>
-                                            <p class="place-time">Fri 27 Nov 2016</p>
-                                            <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                            <button  type="submit" class="btn js-buy-ticket">Buy Tickets</button>
-                                        </div>
-                                    </div>
-                                    <div class="col col-third place-item">
-                                        <img src="./assets/img/newyork.jpg" alt="" class="place-img">
-                                        <div class="place-body">
-                                            <h3 class="place-heading">New York</h3>
-                                            <p class="place-time">Fri 27 Nov 2016</p>
-                                            <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                            <button  type="submit" class="btn js-buy-ticket">Buy Tickets</button>
-                                        </div>
-                                    </div>
-                                    <div class="col col-third place-item>
-                                        <img src="./assets/img/newyork.jpg" alt="" class="place-img">
-                                        <div class="place-body">
-                                            <h3 class="place-heading">New York</h3>
-                                            <p class="place-time">Fri 27 Nov 2016</p>
-                                            <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                            <button  type="submit" class="btn js-buy-ticket">Buy Tickets</button>
-                                        </div>
-                                    </div>
-                                    <div class="clear"></div>
-                            
-                                </div>
-                                
-                            </div>
-                        </div>
-                        <div id="contact" class="content-section content-two">
-                            <div class="text-heading text-align pt-46">
-                                <h2 class="text-first color-black">CONTACT</h2>
-                                <p class="text-second">Fan? Drop a note!</p>
-                            </div>
-        
-                            <div class="row contact-content">
-                                <div class="col col-half">
-                                    <p><i class="ti-locatino-pin"></i>Chicago, US</p>
-                                    <p><i class="ti-mobile"></i>Phone:<a href="tel:+00 151515">+00 151515</a></p>
-                                    <p><i class="ti-email"></i>Email:<a href="mailto:mail@mail.com">mail@mail.com</a></p>
-                                </div>
-                                <div class="col col-half contact-form">
-                                    <form action="">
-                                        <div class="row">
-                                            <div class="col col-half">
-                                                <input type="text" placeholder="Name" required class="form-control">
-                                            </div>
-                                            <div class="col col-half ">
-                                                <input type="email" placeholder="Email" required class="form-control">
-                                            </div>
-                                        </div>
-                                        <div class="row mt-8">
-                                            <div class="col col-full">
-                                                <input type="text" placeholder="Message" required class="form-control">
-                                            </div>
-                                        </div>
-                                        <input class="mt-16 btn pull-right" type="submit" value="SEND">
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
+                <div class="grid-column-10">
+                  <div class="home-filter">
+                    <div class="home-filter-click">
+                      <span>Sắp xếp theo</span>
+                      <button>Phổ Biến</button>
+                      <button>Mới Nhất</button>
+                      <button>Bán Chạy</button>
+                      <div class="home-filter-select">
+                        <span>Giá</span>
+                        <i class="fas fa-angle-down"></i>
+                        <ul class="home-filter-option">
+                          <li>
+                            <a href="">Giá: Thấp đến Cao</a>
+                          </li>
+                          <li>
+                            <a href="">Giá: Cao đến Thấp</a>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
-                </div>    
-    
-
-                
-
-                
-                <div class="map-section">
-                    <img src="./assets/img/map.jpg" alt="Map" class="map-img">
-                </div>
-
-                <div id="footer">
-                    <div class="socials-list">
-                           <a href=""><i class="fa-brands fa-square-facebook"></i></a>
-                           <a href=""><i class="fa-brands fa-instagram"></i></a>
-                           <a href=""><i class="fa-brands fa-youtube"></i></a>
-                           <a href=""><i class="fa-brands fa-square-pinterest"></i></a>
-                           <a href=""><i class="fa-brands fa-square-twitter"></i></a>
-                           <a href=""><i class="fa-brands fa-linkedin"></i></a>                
+                    <div class="home-filter-pagination">
+                      <span>1</span>
+                      /
+                      <span>9</span>
+                      <div class="home-filter-pagination-btn">
+                        <button>
+                          <i class="fas fa-angle-left"></i>
+                        </button>
+                        <button>
+                          <i class="fas fa-angle-right"></i>
+                        </button>
+                      </div>
                     </div>
-                    <p class="copyright">Powered by <a href="">w3.css</a></p>
+                  </div>
+                  <div class="home-product">
+                    <div class="grid-row-mini">
+                      <div class="grid-column-3">
+                        <a class="home-product-item" href="">
+                          <div class="home-product-img" style="background-image: url(/asset/image/product1.jpg);">
+                          </div>
+                          <div class="home-product-intro">
+                            <span>Giầy Thể Thao Nữ Viền Trắng GERRARD1999 chính hàng do Minh-Shop sản xuất</span>
+                          </div>
+                          <div class="home-product-price">
+                            <div class="home-product-price-old">
+                              <del>2.000.000đ</del>
+                            </div>
+                            <div class="home-product-price-new">
+                              <span>1.000.000đ</span>
+                            </div>
+                          </div>
+                          <div class="home-product-evaluate">
+                            <div class="home-product-like home-product-liked">
+                              <i class="home-product-like-no far fa-heart"></i> 
+                              <i class="home-product-like-yes fas fa-heart"></i> 
+                            </div>
+                            <div class="home-product-box-ratting">
+                              <div class="home-product-ratting">
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                              </div>
+                              <div class="home-product-sold">
+                                <span>Đã bán 17</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="home-product-infor">
+                            <div class="home-product-trademark">
+                              <span>Minh_Shop</span>
+                            </div>
+                            <div class="home-product-country">
+                              <span>Thanh Hóa</span>
+                              </div>
+                          </div>
+                          <div class="home-product-favourite">
+                            <i class="fas fa-check"></i>
+                            <span>Yêu Thích</span>
+                          </div>
+                          <div class="home-product-sale-off">
+                            <span>10%</span>
+                            <span>GIẢM</span>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="grid-column-3">
+                        <a class="home-product-item" href="">
+                          <div class="home-product-img" style="background-image: url(/asset/image/product2.jpg);">
+                          </div>
+                          <div class="home-product-intro">
+                            <span>Giầy Thể Thao Nữ Viền Trắng GERRARD1999 chính hàng do Minh-Shop sản xuất</span>
+                          </div>
+                          <div class="home-product-price">
+                            <div class="home-product-price-old">
+                              <del>2.000.000đ</del>
+                            </div>
+                            <div class="home-product-price-new">
+                              <span>1.000.000đ</span>
+                            </div>
+                          </div>
+                          <div class="home-product-evaluate">
+                            <div class="home-product-like home-product-liked">
+                              <i class="home-product-like-no far fa-heart"></i> 
+                              <i class="home-product-like-yes fas fa-heart"></i> 
+                            </div>
+                            <div class="home-product-box-ratting">
+                              <div class="home-product-ratting">
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                              </div>
+                              <div class="home-product-sold">
+                                <span>Đã bán 17</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="home-product-infor">
+                            <div class="home-product-trademark">
+                              <span>Minh_Shop</span>
+                            </div>
+                            <div class="home-product-country">
+                              <span>Thanh Hóa</span>
+                              </div>
+                          </div>
+                          <div class="home-product-favourite">
+                            <i class="fas fa-check"></i>
+                            <span>Yêu Thích</span>
+                          </div>
+                          <div class="home-product-sale-off">
+                            <span>10%</span>
+                            <span>GIẢM</span>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="grid-column-3">
+                        <a class="home-product-item" href="">
+                          <div class="home-product-img" style="background-image: url(/asset/image/product3.jpg);">
+                          </div>
+                          <div class="home-product-intro">
+                            <span>Giầy Thể Thao Nữ Viền Trắng GERRARD1999 chính hàng do Minh-Shop sản xuất</span>
+                          </div>
+                          <div class="home-product-price">
+                            <div class="home-product-price-old">
+                              <del>2.000.000đ</del>
+                            </div>
+                            <div class="home-product-price-new">
+                              <span>1.000.000đ</span>
+                            </div>
+                          </div>
+                          <div class="home-product-evaluate">
+                            <div class="home-product-like home-product-liked">
+                              <i class="home-product-like-no far fa-heart"></i> 
+                              <i class="home-product-like-yes fas fa-heart"></i> 
+                            </div>
+                            <div class="home-product-box-ratting">
+                              <div class="home-product-ratting">
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                              </div>
+                              <div class="home-product-sold">
+                                <span>Đã bán 17</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="home-product-infor">
+                            <div class="home-product-trademark">
+                              <span>Minh_Shop</span>
+                            </div>
+                            <div class="home-product-country">
+                              <span>Thanh Hóa</span>
+                              </div>
+                          </div>
+                          <div class="home-product-favourite">
+                            <i class="fas fa-check"></i>
+                            <span>Yêu Thích</span>
+                          </div>
+                          <div class="home-product-sale-off">
+                            <span>10%</span>
+                            <span>GIẢM</span>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="grid-column-3">
+                        <a class="home-product-item" href="">
+                          <div class="home-product-img" style="background-image: url(/asset/image/product4.jpg);">
+                          </div>
+                          <div class="home-product-intro">
+                            <span>Giầy Thể Thao Nữ Viền Trắng GERRARD1999 chính hàng do Minh-Shop sản xuất</span>
+                          </div>
+                          <div class="home-product-price">
+                            <div class="home-product-price-old">
+                              <del>2.000.000đ</del>
+                            </div>
+                            <div class="home-product-price-new">
+                              <span>1.000.000đ</span>
+                            </div>
+                          </div>
+                          <div class="home-product-evaluate">
+                            <div class="home-product-like home-product-liked">
+                              <i class="home-product-like-no far fa-heart"></i> 
+                              <i class="home-product-like-yes fas fa-heart"></i> 
+                            </div>
+                            <div class="home-product-box-ratting">
+                              <div class="home-product-ratting">
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                              </div>
+                              <div class="home-product-sold">
+                                <span>Đã bán 17</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="home-product-infor">
+                            <div class="home-product-trademark">
+                              <span>Minh_Shop</span>
+                            </div>
+                            <div class="home-product-country">
+                              <span>Thanh Hóa</span>
+                              </div>
+                          </div>
+                          <div class="home-product-favourite">
+                            <i class="fas fa-check"></i>
+                            <span>Yêu Thích</span>
+                          </div>
+                          <div class="home-product-sale-off">
+                            <span>10%</span>
+                            <span>GIẢM</span>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="grid-column-3">
+                        <a class="home-product-item" href="">
+                          <div class="home-product-img" style="background-image: url(/asset/image/product5.jpg);">
+                          </div>
+                          <div class="home-product-intro">
+                            <span>Giầy Thể Thao Nữ Viền Trắng GERRARD1999 chính hàng do Minh-Shop sản xuất</span>
+                          </div>
+                          <div class="home-product-price">
+                            <div class="home-product-price-old">
+                              <del>2.000.000đ</del>
+                            </div>
+                            <div class="home-product-price-new">
+                              <span>1.000.000đ</span>
+                            </div>
+                          </div>
+                          <div class="home-product-evaluate">
+                            <div class="home-product-like home-product-liked">
+                              <i class="home-product-like-no far fa-heart"></i> 
+                              <i class="home-product-like-yes fas fa-heart"></i> 
+                            </div>
+                            <div class="home-product-box-ratting">
+                              <div class="home-product-ratting">
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                              </div>
+                              <div class="home-product-sold">
+                                <span>Đã bán 17</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="home-product-infor">
+                            <div class="home-product-trademark">
+                              <span>Minh_Shop</span>
+                            </div>
+                            <div class="home-product-country">
+                              <span>Thanh Hóa</span>
+                              </div>
+                          </div>
+                          <div class="home-product-favourite">
+                            <i class="fas fa-check"></i>
+                            <span>Yêu Thích</span>
+                          </div>
+                          <div class="home-product-sale-off">
+                            <span>10%</span>
+                            <span>GIẢM</span>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="grid-column-3">
+                        <a class="home-product-item" href="">
+                          <div class="home-product-img" style="background-image: url(/asset/image/product6.jpg);">
+                          </div>
+                          <div class="home-product-intro">
+                            <span>Giầy Thể Thao Nữ Viền Trắng GERRARD1999 chính hàng do Minh-Shop sản xuất</span>
+                          </div>
+                          <div class="home-product-price">
+                            <div class="home-product-price-old">
+                              <del>2.000.000đ</del>
+                            </div>
+                            <div class="home-product-price-new">
+                              <span>1.000.000đ</span>
+                            </div>
+                          </div>
+                          <div class="home-product-evaluate">
+                            <div class="home-product-like home-product-liked">
+                              <i class="home-product-like-no far fa-heart"></i> 
+                              <i class="home-product-like-yes fas fa-heart"></i> 
+                            </div>
+                            <div class="home-product-box-ratting">
+                              <div class="home-product-ratting">
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                              </div>
+                              <div class="home-product-sold">
+                                <span>Đã bán 17</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="home-product-infor">
+                            <div class="home-product-trademark">
+                              <span>Minh_Shop</span>
+                            </div>
+                            <div class="home-product-country">
+                              <span>Thanh Hóa</span>
+                              </div>
+                          </div>
+                          <div class="home-product-favourite">
+                            <i class="fas fa-check"></i>
+                            <span>Yêu Thích</span>
+                          </div>
+                          <div class="home-product-sale-off">
+                            <span>10%</span>
+                            <span>GIẢM</span>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="grid-column-3">
+                        <a class="home-product-item" href="">
+                          <div class="home-product-img" style="background-image: url(/asset/image/product7.jpg);">
+                          </div>
+                          <div class="home-product-intro">
+                            <span>Giầy Thể Thao Nữ Viền Trắng GERRARD1999 chính hàng do Minh-Shop sản xuất</span>
+                          </div>
+                          <div class="home-product-price">
+                            <div class="home-product-price-old">
+                              <del>2.000.000đ</del>
+                            </div>
+                            <div class="home-product-price-new">
+                              <span>1.000.000đ</span>
+                            </div>
+                          </div>
+                          <div class="home-product-evaluate">
+                            <div class="home-product-like home-product-liked">
+                              <i class="home-product-like-no far fa-heart"></i> 
+                              <i class="home-product-like-yes fas fa-heart"></i> 
+                            </div>
+                            <div class="home-product-box-ratting">
+                              <div class="home-product-ratting">
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                              </div>
+                              <div class="home-product-sold">
+                                <span>Đã bán 17</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="home-product-infor">
+                            <div class="home-product-trademark">
+                              <span>Minh_Shop</span>
+                            </div>
+                            <div class="home-product-country">
+                              <span>Thanh Hóa</span>
+                              </div>
+                          </div>
+                          <div class="home-product-favourite">
+                            <i class="fas fa-check"></i>
+                            <span>Yêu Thích</span>
+                          </div>
+                          <div class="home-product-sale-off">
+                            <span>10%</span>
+                            <span>GIẢM</span>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="grid-column-3">
+                        <a class="home-product-item" href="">
+                          <div class="home-product-img" style="background-image: url(/asset/image/product8.jpg);">
+                          </div>
+                          <div class="home-product-intro">
+                            <span>Giầy Thể Thao Nữ Viền Trắng GERRARD1999 chính hàng do Minh-Shop sản xuất</span>
+                          </div>
+                          <div class="home-product-price">
+                            <div class="home-product-price-old">
+                              <del>2.000.000đ</del>
+                            </div>
+                            <div class="home-product-price-new">
+                              <span>1.000.000đ</span>
+                            </div>
+                          </div>
+                          <div class="home-product-evaluate">
+                            <div class="home-product-like home-product-liked">
+                              <i class="home-product-like-no far fa-heart"></i> 
+                              <i class="home-product-like-yes fas fa-heart"></i> 
+                            </div>
+                            <div class="home-product-box-ratting">
+                              <div class="home-product-ratting">
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="home-product-ratting-gold fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                              </div>
+                              <div class="home-product-sold">
+                                <span>Đã bán 17</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="home-product-infor">
+                            <div class="home-product-trademark">
+                              <span>Minh_Shop</span>
+                            </div>
+                            <div class="home-product-country">
+                              <span>Thanh Hóa</span>
+                              </div>
+                          </div>
+                          <div class="home-product-favourite">
+                            <i class="fas fa-check"></i>
+                            <span>Yêu Thích</span>
+                          </div>
+                          <div class="home-product-sale-off">
+                            <span>10%</span>
+                            <span>GIẢM</span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="home-pagination">
+                    <ul class="list-items-container">
+                      <li class="list-items">
+                        <a href="" class="list-link">
+                          <i class="fas fa-chevron-left"></i>
+                        </a>
+                      </li>
+                      <li class="list-items list-items-action">
+                        <a href="" class="list-link">
+                          <span>1</span>
+                        </a>
+                      </li>
+                      <li class="list-items">
+                        <a href="" class="list-link">
+                          <span>2</span>
+                        </a>
+                      </li>
+                      <li class="list-items">
+                        <a href="" class="list-link">
+                          <span>3</span>
+                        </a>
+                      </li>
+                      <li class="list-items">
+                        <a href="" class="list-link">
+                          <span>4</span>
+                        </a>
+                      </li>
+                      <li class="list-items">
+                        <a href="" class="list-link">
+                          <span>5</span>
+                        </a>
+                      </li>
+                      <li class="list-items">
+                        <a href="" class="list-link">
+                          <span>...</span>
+                        </a>
+                      </li>
+                      <li class="list-items">
+                        <a href="" class="list-link">
+                          <span>14</span>
+                        </a>
+                      </li>
+                      <li class="list-items">
+                        <a href="" class="list-link">
+                          <i class="fas fa-chevron-right"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-            
- 
-    <script>
-        const buyBtns = document.querySelectorAll('.js-buy-ticket');//lấy 3 nút trên trang web
-        const modal = document.querySelector('.modal');
-        const modalClose = document.querySelector('.modal-close');
-
-        function showBuyTicket(){
-            modal.classList.add('open');
-        }
-
-        function closeBuyTicket(){
-            modal.classList.remove('open');
-        }
- 
-        for(const buyBtn of buyBtns){
-            buyBtn.addEventListener('click',showBuyTicket);
-        }
-
-        modalClose.addEventListener('click',closeBuyTicket);
-    </script>
-
-    <script>
-        var mobileMenu = document.getElementById('menu');
-        var header = document.getElementById('header');
-        var moreHeader =document.getElementById('more');
+              </div>
+            </div>
+          </main>
+          <footer>
+            <div class="footer-infor">
+              <div class="grid">
+                <div class="grid-row">
+                  <div class="grid-column-3">
+                    <div class="footer-info-left">
+                      <div class="footer-infor-header">
+                        <h3>Chăm Sóc Khách Hàng</h3>
+                      </div>
+                      <ul class="footer-infor-list">
+                        <li>
+                          <a href="" class="footer-infor-link">
+                            <span>Trung Tâm Trợ Giúp</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="" class="footer-infor-link">
+                            <span>Hướng Dẫn Mua Hàng</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="" class="footer-infor-link">
+                            <span>Chính Sách Vận Chuyển</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="grid-column-3">
+                    <div class="footer-info-left">
+                      <div class="footer-infor-header">
+                        <h3>Về Chúng Tôi</h3>
+                      </div>
+                      <ul class="footer-infor-list">
+                        <li>
+                          <a href="" class="footer-infor-link">
+                            <span>Giới Thiệu Về Thời Trang Minh</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="" class="footer-infor-link">
+                            <span>Tuyển Dụng</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="" class="footer-infor-link">
+                            <span>Điều Khoản Chính Sách</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="grid-column-3">
+                    <div class="header-infor-social">
+                      <div class="footer-infor-header">
+                        <h3>Theo Dõi Chung Tôi Trên</h3>
+                      </div>
+                      <ul class="footer-infor-list">
+                        <li>
+                          <a href="" class="footer-infor-link footer-infor-link-social">
+                            <i class="fab fa-facebook-square"></i>
+                            <span>Facebook</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="" class="footer-infor-link footer-infor-link-social">
+                            <i class="fab fa-instagram-square"></i>
+                            <span>Instagram</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="" class="footer-infor-link footer-infor-link-social">
+                            <i class="fab fa-twitter-square"></i>
+                            <span>Twitte</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="grid-column-3">
+                    <div class="footer-infor-header">
+                      <h3>Vào Cửa Hàng Trền Ứng Dụng Minh-Shop</h3>
+                    </div>
+                    <div class="footer-img">
+                      <div class="footer-img-qr">
+                        <img src="/asset/image/qr.png" alt="">
+                      </div>
+                      <div class="footer-img-app">
+                        <div class="footer-img-app-ast">
+                          <img src="/asset/image/st.png" alt="">
+                        </div>
+                        <div class="footer-img-app-ch">
+                          <img src="/asset/image/ch.png" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-intro">
+              <div class="footer-intro-rules">
+                <ul class="footer-intro-list-rules">
+                  <li>
+                    <a href="" class="footer-intro-link">
+                      <span>Chính Sách Bảo Mật</span>
+                    </a>
+                  </li>
+                  <li class="line"></li>
+                  <li>
+                    <a href="" class="footer-intro-link">
+                      <span>Quy Chế Hoạt Động</span>
+                    </a>
+                  </li>
+                  <li class="line"></li>
+                  <li>
+                    <a href="" class="footer-intro-link">
+                      <span>Chính Sách Trả Hàng Và Hoàn Tiền</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-intro-address">
+                <p>Công ty Đồ Thể Thao Minh_CONBALANG</p>
+                <p>Chi nhánh: 197 Hoàng Mai, Hoàng Văn Thụ, Hoàng Mai, Hà Nội</p>
+              </div>
+            </div>
+          </footer>
+      </div>
     
-        var headerHeight = header.clientHeight;
-      
-        mobileMenu.onclick = function(){
-            var Height = header.clientHeight === headerHeight;
-            if(Height){
-                header.style.height = 'auto';  
-            }
-            else{
-                header.style.height = null;
-            }
-        }
-
-
-        //Tự động đóng khi chọn menu
-        var menuItems = document.querySelectorAll('#header .item-parent a[href*="#"]');
-        console.log(menuItems);
-       
-        
-        for(var i = 0;i < menuItems.length ;i++){   
-            var menuItem = menuItems[i];
-            console.log([menuItem]);
-
-            menuItem.onclick = function(event) {
-                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('list-item-child');
-                console.log(isParentMenu);
-
-                if(isParentMenu){ 
-                    event.preventDefault();
-                }
-                else{
-                    header.style.height = null;
-                }                
-            }
-        }
-
-    </script>
-</body> -->
-
-
-
-
-
-</body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
-
